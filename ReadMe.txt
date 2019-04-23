@@ -15,8 +15,10 @@ mvn package
 cd target
 java -jar systemprogram-1.0-SNAPSHOT-shaded.jar
 
-
 Or we can run this process in background using below command without displaying logs in command prompt.
 
 start javaw -jar systemprogram-1.0-SNAPSHOT-shaded.jar
+
+Also, if we pass program argument "download", it will connect to google drive and download and un-encrypt and store it in local folder.
+
 
